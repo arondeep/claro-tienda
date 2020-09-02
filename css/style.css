@@ -1,0 +1,396 @@
+body {
+    font-family: Bell MT, Geneva, Maiandra;
+ }
+
+/* sección Header-barra-1*/
+header .contenedor{
+    background:#ffffff;
+    width: 100%;
+    padding-bottom: 2px; 
+    top: 0px;
+    z-index: 16;
+ }
+ header .contenedor .navbar-collapse ul li a{
+    color: #5fbde9;
+ }
+ header .contenedor .navbar-collapse {
+    justify-content: flex-end;
+ }
+ header .contenedor .navbar-collapse ul li a:hover {
+    color: #c3c7c5;
+ }
+ 
+ /* barra-2*/
+ header .contenedor2{
+    background: #ef3829;
+      width: 100%;
+
+}
+ header .contenedor2 .navbar-collapse {
+    justify-content: flex-end;
+ }
+ header .contenedor2 .navbar-collapse ul li  img{
+    margin-right: 20px;
+ }
+ header .contenedor2 .container  form{
+    margin: 100px;
+    width: 200%;
+ }
+ 
+ /* barra-3*/
+ header .contenedor3{
+    background: white;
+    width: 100%;
+ 
+ } 
+ header .contenedor3 .navbar-collapse {
+    justify-content: center;
+ }
+ 
+ header .contenedor3 .navbar-collapse ul li a{
+    color: #5f5d5d;
+ }
+ header .contenedor3 .navbar-collapse ul li a:hover {
+    color: #afb3b0;
+ }
+ 
+ header .contenedor3 .navbar-collapse .dropdown{
+    margin-right: 100px;
+    
+ }
+ 
+ /* Promo2*/
+ #promo2 .container .cont-item img{
+    width: 100%;
+ }
+ div.medios img.izquierda {
+   float: left;
+   margin-right: 10px;
+ }
+
+
+
+/* BANNER */
+#banner{
+    position: relative;
+}
+#banner .container{
+    background: url(../img/Banner_portabilidada.jpg) no-repeat;
+    width: 100%;
+    background-position-x: right;
+    height: 30vh;
+}
+#marcas .logos{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#marcas .logos ul{
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+.slick-prev{
+    left: -35px;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+    font-size: 30px;
+}
+#marcas .logos ul li{
+    width: 10%;
+    float: left; 
+    margin: 0 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#marcas .logos ul li:hover{
+    box-shadow: 0px 2px 5px rgba(0.5, 0.5, 0.5, 0.5);
+}
+#marcas .logos ul li a img{
+    width: 100%;
+    display: block;
+}
+#Promo2 .container .row{
+    padding: 40px;
+}
+
+
+
+
+
+#celulares{
+    padding-bottom: 3%;
+}
+.row{
+    padding: 3px ;
+}
+.cont-promo{
+    margin: 10px;
+}
+.cont-promo a{
+    width: 100%;
+}
+.cont-promo a img:hover{
+    opacity: 60%;
+}
+.cont-promo a img{
+    width: 100%;
+    height: 100%;
+}
+#tecnologia{
+    padding-bottom: 3%;
+}
+#postpago{
+    padding-bottom: 3%;
+
+}
+
+
+
+
+
+
+#sim-card{
+    padding-bottom: 3%;
+}
+.bannerM{
+    display: none;
+}
+.row{
+    padding: 3px;
+}
+.cont-compra-simcar a img{
+    width: 100%;
+    height: 100%;  
+}
+.banner-vtc:hover::before{
+	content: "";
+	background: rgba(222, 222, 222, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.text-sim{
+    
+    font-size: 28px;
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.text-sim a{
+    color: #008080;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#recomendados .container .row .col-md-4 a{
+    color: #4d4d4d;
+    min-height: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+#recomendados .container .row .col-md-4 a img{
+    margin-left: 50px;
+}
+.text-recomend a{
+    color: #008080;
+    font-size: 14px;
+    text-decoration: none;
+}
+.text-recomend{
+    font-size: 28px;
+    width: 100%;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.product_price_category {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 70px;
+}
+.productOldPrice{
+    color: #4d4d4d;
+}
+.seeMorebasicButton_white>span {
+    display: table-cell;
+    height: 25px;
+    padding: 5px 0;
+    border-radius: 2px;
+    line-height: normal;
+    text-align: center;
+    width: 160px;
+    border: 1px solid #1493ab;
+}
+.seeMorebasicButton_white {
+    color: #1493ab;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+    padding: 80px 70px;
+}
+.seeMorebasicButton_old{
+    color: #1493ab;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+    padding: 103px 70px;
+}
+.seeMorebasicButton_omg{
+    color: #1493ab;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+    padding: 103px 70px;
+}
+.seeMorebasicButton_old>span {
+    display: table-cell;
+    height: 25px;
+    padding: 5px 0;
+    border-radius: 2px;
+    line-height: normal;
+    text-align: center;
+    width: 160px;
+    border: 1px solid #1493ab;
+}
+.seeMorebasicButton_omg>span {
+    display: table-cell;
+    height: 25px;
+    padding: 5px 0;
+    border-radius: 2px;
+    line-height: normal;
+    text-align: center;
+    width: 160px;
+    border: 1px solid #1493ab;
+}
+.seeMorebasicButton_old>span:hover{
+    background-color: #1493ab;
+}
+.seeMorebasicButton_omg>span:hover{
+    background-color: #1493ab;
+}
+.seeMorebasicButton_white>span:hover{
+    background-color: #1493ab;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    position: relative;
+}
+footer .sup-footer{
+    width: 100%;
+    background-color: #cacaca;
+}
+footer .sup-footer .container h3{
+    color: #000104;
+    font-size: 100%;
+    padding: 2px;
+    margin: 0;
+}
+footer .bot-footer{
+    width: 100%;
+    background: #ddd;
+    padding: 20px;
+}
+footer .bot-footer .container .row h4{
+    font-size: 15px;
+}
+footer .bot-footer .container .row a{
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+footer .bot-footer .container .row .col-3 .pagos img{
+    max-width: 26px;
+}
+footer .bot-footer .container .row .col-2 img{
+    max-width: 30px;
+    opacity: 70%;
+    margin-left: 2px;
+    padding-bottom: 20px;
+}
+footer .final{
+    background-color: #000;
+    height: 7vh;
+}
+footer .final .container img{
+    max-width: 70px;
+    float: left;
+    margin-top: 20px;
+}
+footer .final .container h6{
+    color: #fff;
+    font-size: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+footer .final .container a{
+    float: right;
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width:990px) and (min-width:768px){
+    #banner .container{
+        background: url(../img/Banner_portabilidad.jpg) no-repeat;
+        width: 100%;
+        background-position-x: center;
+        height: 30vh;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:520px) and (min-width:320px){
+    .bannerM{
+        display: block;
+
+    }
+    .bannerD{
+        display: none;
+    }
+    
+    
+    
+    
+    #banner .container{
+        background: url(../img/Banner_portabilidad-m.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-position-x: center;
+        height: 40vh;
+    }
+    .slick-prev:before, .slick-next:before{
+        color: black;
+        font-size: 20px;
+    }
+    footer .bot-footer .container .row{
+        display: block;
+    }
+    footer .bot-footer .container .row .col-3,  footer .bot-footer .container .row .col-2{
+        display: contents;
+        margin-top: 20px;
+    }
+    footer .final{
+        height: 20vh;
+    }
+}
